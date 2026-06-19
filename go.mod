@@ -1,4 +1,4 @@
-module github.com/pucora/velonetics-httpcache/v2
+module github.com/pucora/pucora-httpcache/v2
 
 go 1.23.0
 

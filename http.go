@@ -24,7 +24,7 @@ type Cache interface {
 }
 
 // Namespace is the key to use to store and access the custom config data
-const Namespace = "github.com/pucora/velonetics-httpcache"
+const Namespace = "github.com/pucora/pucora-httpcache"
 
 // NewHTTPClient creates a HTTPClientFactory using an in-memory-cached http client
 func NewHTTPClient(cfg *config.Backend, nextF client.HTTPClientFactory) client.HTTPClientFactory {

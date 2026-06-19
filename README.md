@@ -13,7 +13,7 @@ This package exposes two simple factories capable to create a instances of the `
 		"github.com/pucora/lura/v2/config"
 		"github.com/pucora/lura/v2/proxy"
 		"github.com/pucora/lura/v2/transport/http/client"
-		"github.com/pucora/velonetics-httpcache/v2"
+		"github.com/pucora/pucora-httpcache/v2"
 	)
 
 	requestExecutorFactory := func(cfg *config.Backend) proxy.HTTPRequestExecutor {
